@@ -1,0 +1,23 @@
+.categoriesItem {
+    height: 145px;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1.5px solid lightgrey;
+    margin: 0 25% 0 0;
+    cursor: pointer;
+}
+
+.categoriesItem:hover {
+    border: 1.5px solid #db4444;
+    color: #db4444;
+    border-radius: 10px;
+}
+
+.categoriesItemCardText {
+    font-size: 1rem;
+    margin-top: 10px;
+}

@@ -1,0 +1,19 @@
+.mainCartPage{
+    padding: 3.3vw;
+
+}
+
+.cartPageMainTitleItems{
+    color: #000000;
+    /*margin: 20px;*/
+    /*border:1px solid red;*/
+    width:25%
+}
+
+.cartPageMainTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    /*width: 100%;*/
+}

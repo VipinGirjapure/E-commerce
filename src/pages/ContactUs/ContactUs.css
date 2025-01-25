@@ -1,0 +1,79 @@
+.contactUsMainContainer {
+    padding: 3.3vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactUsInfoBox {
+    width: 30%;
+    margin-right: 5%;
+    padding: 1rem 2rem;
+}
+
+.contactUsFormBox {
+    padding: 30px !important;
+
+}
+
+.contactUsInfoBoxHeadingContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 15px 0 30px 0;
+
+}
+
+.contactUsInfoBoxHeading {
+    font-size: 18px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.contactUsInfoBoxHeadingIcon {
+    margin-right: 10px;
+}
+
+.contactFormInput {
+    width: 235px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 15px 15px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contactFormMessage::placeholder,
+.contactFormInput::placeholder {
+    color: #000000;
+    opacity: 0.5;
+    font-size: 16px;
+}
+
+.contactFormInput:nth-child(2) {
+    margin: 0px 10px;
+}
+
+.formInputContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.contactFormMessage {
+    height: 50%;
+    min-width: 96%;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 15px 15px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    resize: none;
+}
+
+.redButtonContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 20px;
+}

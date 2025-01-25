@@ -1,0 +1,176 @@
+*:focus {
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+    position: static;
+    top: 0%;
+}
+
+.logoContainer {
+    width: 20vw;
+}
+
+.navItemContainer {
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+}
+
+.logo {
+    font-size: 29px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 3.3vw 20px 3.3vw;
+    border-bottom: 1px solid lightGrey;
+}
+
+.lastHeaderItem {
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    width: 25vw;
+}
+
+.navItem {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.navItem:hover {
+    color: grey
+}
+
+.active {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+    color: black;
+}
+
+.searchInput {
+    width: 243px;
+    height: 38px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 0 15px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.headerIcons {
+    display: flex;
+    align-items: center;
+}
+
+.goToButtons {
+    cursor: pointer;
+}
+
+.cartIconBtn {}
+
+.adHeader {
+    min-height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.containerOne {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 60vw;
+}
+
+.containerTwo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+
+}
+
+.adNoteText {
+    color: #FFFF;
+}
+
+.goToLink {
+    color: #FFFF;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+select {
+    /*-webkit-appearance: none;*/
+    /*-moz-appearance: none;*/
+    /*appearance: none;*/
+    /* Remove default arrow */
+    /*background-image: url(...);*/
+    /* Add custom arrow */
+}
+
+.activeProfileBtn {
+    /*background-color: var(--red);
+    padding: 1px 2.5px;
+    border: 1px solid var(--light-grey);
+    border-radius: 50%;
+    color:white*/
+    height: 32px;
+    width: 32px;
+}
+
+.profileMenuList {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(15px);
+    width: 220px;
+    border-radius: 8px;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    z-index: 999999;
+}
+
+.listItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    color: var(--white) !important;
+    border: none;
+    background-color: transparent;
+    margin:20px 0;
+}
+
+.listItem:hover {
+    opacity: 0.7;
+}
+
+.menuListIcon {
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+    color: var(--white);
+}
+
+.menuItemText {
+    text-align: left;
+    margin-right: 4px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.userContainer {
+    position: relative;
+}

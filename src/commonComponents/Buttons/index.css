@@ -1,0 +1,85 @@
+/*.redButton {
+  min-height: 56px;
+  width: 100%;
+  background-color: #db4444;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.redButton:hover {
+  opacity: 0.8;
+}*/
+
+.whiteButton {
+    min-height: 56px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 20px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+
+}
+
+.redButton {
+    display: inline-block;
+    font-size: 1rem;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    min-height: 56px;
+    width: 100%;
+    background-color: #db4444;
+    color: #ffffff;
+    border: 1px solid #db4444;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -2;
+    }
+
+    &:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background-color: #ffffff;
+        color: #000000;
+        transition: all .3s;
+        /*border-radius: 10rem;*/
+        z-index: -1;
+    }
+
+    &:hover {
+        color: #000000;
+
+        &:before {
+            width: 100%;
+        }
+    }
+}
+
+/*.whiteButton:hover,*/
+.whiteButton:hover {
+    opacity: 0.8;
+}

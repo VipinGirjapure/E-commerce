@@ -1,0 +1,15 @@
+.editProfileFormInput{
+    width: 400px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 15px 15px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top:10px ;
+}
+
+.editProfileFormInput::placeholder {
+    color: #000000;
+    opacity: 0.5;
+    font-size: 16px;
+}

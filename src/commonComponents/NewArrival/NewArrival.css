@@ -1,0 +1,105 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    /*background-color: #000000;*/
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  .grid-container > div {
+    background-color: #f1f1f1;
+    text-align: center;
+    /*padding: 20px 0;  */
+    font-size: 30px;
+  }
+  
+  .gridItem1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 5;
+  }
+  .gridItem2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+  .gridItem3 {
+   grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
+  }
+  .gridItem4 {
+   grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
+  }
+
+  .imgTitle{
+    color:#FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 5px 0;
+    text-align: start;
+
+  }
+  .imgText{
+    font-size: 14px;
+    color:#FFFFFF;
+    margin: 10px 0;
+    text-align: start;
+  }
+
+  .imgGoToLink{
+    text-decoration: underline;
+    text-underline-offset: 10px; 
+    text-decoration-thickness: 2px; 
+    text-decoration-color: lightgrey ;
+    color: #FFFFFF; 
+    font-weight: bold;
+    margin: 0;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .newBoxInfo{
+    margin-top: 30px;
+    height:249px;
+    width: fit-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .newBoxInfoIcon{
+    height: 50px;
+    width: 50px;
+    background-color: #000000;
+    border: 16px solid lightgray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#FFFFFF;
+    padding: 10px;
+  }
+
+  .newBoxInfoText{
+    color:'#000000';
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom:0 ;
+    margin-top:10px ;
+    
+  }
+  .newBoxInfoSmallText{
+    color:'#000000';
+    font-size: 16px;
+    margin-top:10px ;
+
+  }
